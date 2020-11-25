@@ -1,7 +1,9 @@
 .video-item {
   display: flex !important;
   align-items: center !important;
+  padding: 0.5rem;
   cursor: pointer;
+  background: #fff;
 }
 
 .video-item.item img {
