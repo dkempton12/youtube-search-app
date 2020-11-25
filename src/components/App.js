@@ -19,7 +19,7 @@ const App = () => {
   return (
     <div className="ui container" style={{ marginTop: '2rem' }}>
       <SearchBar onFormSubmit={search} />
-      <div className="ui grid">
+      <div className="ui grid container">
         <div className="ui row">
           <div className="eleven wide column">
             <VideoDetail video={selectedVideo} />
